@@ -9,14 +9,15 @@ var specialString = "!@#$%^&*";
 var specialArray = specialString.split("");
 
 function askForOptions() {
-  var passLength = parseInt(prompt("How long?"));
+  var passLength = parseInt(prompt(" Please choose a number"));
+  var isLower = (prompt("Please choose a lowercase letter"));
+  var isUpper = (prompt("Please choose a upper letter"));
+  var isSpecial = (prompt("Please choose a special character"));
  
-
-
-  var isNum = confirm("yes, numbers");
-  var isLower = confirm("yes, lower");
-  var isUpper = confirm("yes, Upper");
-  var isSpecial = confirm("yes, special");
+  var isNum = confirm("you have chosen a number");
+  var isLower = confirm("you have chosen a lower case letter");
+  var isUpper = confirm("you have chosen a upper case letter");
+  var isSpecial = confirm("you have chosen a special character");
  
 
   var options = {
