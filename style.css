@@ -6,7 +6,7 @@ h1{
     text-align: center;
 }
 
-#box {
+#pass {
     width: 900px;
     height: 150px;
     display: block; margin: auto; 
@@ -15,7 +15,7 @@ h1{
     
 }
 
-input[type=submit] {
+ .button{
     border: 2px  red;
     padding: 5px;
     display: block;
@@ -27,8 +27,7 @@ input[type=submit] {
     font-family: Tahoma;
     background: red;
     color: white;
-    font-size: 20px;
-   
+    font-size: 20px;  
 }
 #featuredSection {
     width: 2500px;

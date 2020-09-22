@@ -2,7 +2,7 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title></title>
+        <title>Password Generator</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
@@ -21,26 +21,26 @@
                 <div class="col-sm-18">   
                 </div>
         <form>
-            <form action="/action_page.php">
+            <form action="/action_page.php" id="form">
                 <label for="pBox"> <strong> Generate a Password</strong></label><br>
                 <hr>
-                <input type="text" id="box" Criteria="firstCriteria" value="Your Secure Password"> 
+                <input type="text" id="pass" Criteria="firstCriteria" value="Your Secure Password"> 
                 <br>
                 <div class="container"></div>
                 <div class="row"></div>
-                <div class="col-sm-12"></div>                                  
-                <input type="submit" value="Generate a Password">
-              </form>
-              </form></div>
+                <div class="col-sm-12"></div>   
+                <button class="button" onclick=form()"> 
+                    Generate a Password
+                </button> 
+                </form>
+                </form></div>
+              
+
+
+
               </div>
               </div>
-   
-        <script>  
-        console.log("Hello World")
-        
-        
-        
-        </script>
-    
+              <script src="scripts.js"></script>
+       
     </body>
 </html>
