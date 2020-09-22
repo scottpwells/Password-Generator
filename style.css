@@ -1,0 +1,49 @@
+h1{
+    color:black;
+    font-weight: strong;
+    font-size: 42;
+    margin-top: 0%;
+    text-align: center;
+}
+
+#box {
+    width: 900px;
+    height: 150px;
+    display: block; margin: auto; 
+    text-align:center;
+    border-style: dotted;
+    
+}
+
+input[type=submit] {
+    border: 2px  red;
+    padding: 5px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 25px;
+    max-width: 70%;
+    height:50px;
+    font-family: Tahoma;
+    background: red;
+    color: white;
+    font-size: 20px;
+   
+}
+#featuredSection {
+    width: 2500px;
+    height: 500px;
+    padding: 150px;
+    background-color: white;
+    border-style: solid;
+    border-color: lightgray;
+    padding-top: 15%;
+    margin-top: 2%;
+    
+
+
+
+}
+
+
+
