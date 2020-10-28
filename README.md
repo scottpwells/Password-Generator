@@ -26,7 +26,9 @@ of meeting all of the criteria. I simply ran out of time but the project did mee
 
 
 
+Screen shot of Website:
 
+![password-generator](https://user-images.githubusercontent.com/57837212/97462905-96cda800-1915-11eb-8118-7353985f90db.PNG)
 
 
 
